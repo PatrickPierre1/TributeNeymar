@@ -1,0 +1,149 @@
+*{
+    box-sizing: border-box;
+}
+:root{
+    --text-colordefault--: #313131;
+}
+body{
+    margin: 0;
+    padding: 0;
+    border-right: 100px solid transparent;
+    border-left: 100px solid transparent;
+    border-image: linear-gradient(180deg, #49785d 50%, #e6b12e 50%);
+    border-image-slice: 1;
+}
+.containerHeader{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 350px;
+    justify-content: center;
+    align-items: center;
+}
+header h1{
+    font-size: 35px;
+    font-family: 'Fira Sans';
+    font-weight: bold;
+    margin-top: 5px;
+    text-shadow: 0px 1px 2px black;
+    color: var(--text-colordefault--);
+}
+.titleBar {
+    width: 85%;
+    height: 5px;
+    background-color: #49785d;
+    background-image: linear-gradient(90deg, #49785d 50%, #e6b12e 50%);
+    margin-bottom: 20px;
+}
+.galleryContainer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 400px;
+    width: 100%;
+}
+.galleryContainer img{
+    margin-right: 20px;
+    border: 3px solid transparent;
+    border-image: linear-gradient(90deg, #49785d 50%, #e6b12e 50%);
+    border-image-slice: 1;
+    box-shadow: 0px 0px 3px var(--text-colordefault--);
+    
+}
+.galleryContainer p {
+    margin: 0px;
+    text-align: center;
+    font-family: 'Open Sans';
+    font-style: italic;
+    font-weight: 500;
+    color: black;
+    text-shadow: 0px 1px 1px black;
+}
+.containerHistory{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 800px;
+    align-items: center;
+    margin-top: 50px;
+}
+.containerHistory h2,
+aside h2 {
+    font-size: 30px;
+    font-family: 'Fira Sans';
+    font-weight: bold;
+    margin-top: 30px;
+    text-shadow: 0px 1px 2px black;
+    color: var(--text-colordefault--);
+}
+.history {
+    max-width: 1400px;
+    font-size: 17px;
+    color: var(--text-colordefault--);
+    background-color: #eee;
+    padding: 20px;
+    border: 1px solid transparent;
+    border-radius: 5px;
+    font-family: 'Open Sans';
+    margin-top: 5px;
+    text-align: justify;
+}
+span {
+    color:#0690d8;
+}
+.containerSociais {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+.sociais {
+    flex-direction: row;
+    display: flex;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+.sociais img {
+    margin-right: 100px;
+    margin-left: 100px;
+
+}
+.sociais img:hover{
+    filter: saturate(200%);
+    transition: all 0.5s ease;
+}
+.NFT img {
+    width: 300px;
+    margin-top: 30px;
+    border: 1px solid transparent;
+    border-radius: 50%;
+}
+.rodape{
+    width: 100%;
+    height: 100px;
+    background-color: #313131;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.rodape h3{
+    margin: 0;
+    color: #ccc;
+    font-style: italic;
+    font-weight: normal;
+    font-family: 'Open Sans';
+}
+.rodape h3 a {
+    color: #49785d;
+    text-decoration: none;
+}
+.rodape h3 a:hover{
+    color: #e6b12e;
+    transition: all 0.5s ease;
+}
+.containerrodape{
+    margin-top: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
